@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Sup</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Ubuntu&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<div class="header__top">
+					<a class="header__logo" href="#"><img src="images/logo.svg" alt=""></a>
+					<nav class="menu">
+						<div class="menu__burger">
+							<span></span>
+						</div>
+						<ul class="menu__list">
+							<li class="menu__list-item">
+								<a class="menu__list-link" href="#about">О SupRest</a>
+							</li>
+							<li class="menu__list-item">
+								<a class="menu__list-link" href="#services">Услуги</a>
+							</li>
+							<li class="menu__list-item">
+								<a class="menu__list-link" href="#gallery">Галлерея</a>
+							</li>
+							<li class="menu__list-item">
+								<a class="menu__list-link" href="#rates">Тарифы</a>
+							</li>
+							<li class="menu__list-item">
+								<a class="menu__list-link" href="#contacts">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__content">
+					<div class="header__content-utp">
+						<h1 class="header__title">
+							Аренда SUP-бордов
+							в Киеве
+						</h1>
+						<p class="header__text">
+							Получи скидку -40% на первый прокат
+							и отправляйся в незабываемое приключение
+						</p>
+						<a class="header__btn" href="">Заказать прокат</a>
+					</div>
+					<div class="header__content-price">
+						<h4 class="header__price-title">Стоимисть проката SUP:</h4>
+						<p class="header__price-text">Будние дни — от <span>120</span> грн/час</p>
+						<p class="header__price-text">Выходные и праздничные
+							дни — от <span>160</span> грн/час</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<section class="about" id="about">
+			<div class="container">
+				<div class="about__inner">
+					<div class="about__progress">
+						<img class="about__progress-img" src="images/about.jpg" alt="">
+						<div class="about__progress-items">
+							<div class="about__progress-item">
+								<div class="about__progress-number">3000</div>
+								<div class="about__progress-text">Счастливых клиентов</div>
+							</div>
+							<div class="about__progress-item">
+								<div class="about__progress-number">5</div>
+								<div class="about__progress-text">Лет опыта</div>
+							</div>
+							<div class="about__progress-item">
+								<div class="about__progress-number">150+</div>
+								<div class="about__progress-text">Видов бордов и снаряжения</div>
+							</div>
+						</div>
+					</div>
+					<div class="about__info">
+						<div class="about__info-title title">SupRest — это</div>
+						<p class="about__info-text">
+							Команда высококвалифицированных специалистов в сфере обучения sup-серфингу и
+							предоставления аренды sup-бордов.
+						</p>
+						<p class="about__info-text">Мы отвечаем за качество оборудования и гарантируем:</p>
+						<div class="about__info-inner">
+							<p class="about__info-garantee">Огромный выбор оборудование для sup-серфинга.</p>
+							<p class="about__info-garantee">Лучшие ценовые предложения, выгодные скидки.</p>
+							<p class="about__info-garantee">Консультации, индивидуальный подход, помощь в выборе</p>
+							<p class="about__info-garantee">
+								Наличие необходимого оборудования при бронировании и актуальные цены на сайте
+							</p>
+							<p class="about__info-garantee">Комфортные варианты оплаты: наличный, безналичный расчет</p>
+						</div>
+						<p class="about__info-desc">Наша команда сделает все для вашего незабываемого отдыха.</p>
+					</div>
+				</div>
+			</div>
+			<div class="about__after"></div>
+		</section>
+		<section class="rates" id="rates">
+			<div class="container">
+				<h2 class="rates__title title">Тарифы оренды</h2>
+				<div class="rates__items">
+					<div class="rates__item" ontouchstart="this.classList.toggle('hover');">
+						<div class="rates__item-container">
+							<div class="rates__item-front"
+								style="background-image: url(images/rent1.jpg); background-position: center 40%;">
+								<div class="rates__item-inner">
+									<h4 class="rates__item-title">Индивидуальный</h4>
+								</div>
+							</div>
+							<div class="rates__item-back">
+								<div class="rates__item-inner">
+									<ul class="rates__item-content">
+										<li class="rates__content-item">
+											<p class="rates__content-text">Количество:</p>
+											<p class="rates__content-desc"><span>1</span> человек</p>
+										</li>
+										<li class="rates__content-item">
+											<p class="rates__content-text">Будние дни:</p>
+											<p class="rates__content-desc">oт <span>120</span> грн/час</p>
+										</li>
+										<li class="rates__content-item">
+											<p class="rates__content-text">Выходные и праздничные
+												дни:</p>
+											<p class="rates__content-desc">oт <span>160</span> грн/час</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="rates__item" ontouchstart="this.classList.toggle('hover');">
+						<div class="rates__item-container">
+							<div class="rates__item-front" style="background-image: url(images/rent2.jpg) ;">
+								<div class="rates__item-inner">
+									<h4 class="rates__item-title">Корпоративный</h4>
+								</div>
+							</div>
+							<div class="rates__item-back">
+								<div class="rates__item-inner">
+									<ul class="rates__item-content">
+										<li class="rates__content-item">
+											<p class="rates__content-text">Количество:</p>
+											<p class="rates__content-desc"><span>6</span> человек</p>
+										</li>
+										<li class="rates__content-item">
+											<p class="rates__content-text">Будние дни:</p>
+											<p class="rates__content-desc">oт <span>100</span> грн/час</p>
+										</li>
+										<li class="rates__content-item">
+											<p class="rates__content-text">Выходные и праздничные
+												дни:</p>
+											<p class="rates__content-desc">oт <span>120</span> грн/час</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="rates__item" ontouchstart="this.classList.toggle('hover');">
+						<div class="rates__item-container">
+							<div class="rates__item-front"
+								style="background-image: url(images/rent3.jpg); background-position: center 20%; ">
+								<div class="rates__item-inner">
+									<h4 class="rates__item-title">Семейный</h4>
+								</div>
+							</div>
+							<div class="rates__item-back">
+								<div class="rates__item-inner">
+									<ul class="rates__item-content">
+										<li class="rates__content-item">
+											<p class="rates__content-text">Количество:</p>
+											<p class="rates__content-desc">1 человек</p>
+										</li>
+										<li class="rates__content-item">
+											<p class="rates__content-text">Будние дни:</p>
+											<p class="rates__content-desc">oт 110грн/час</p>
+										</li>
+										<li class="rates__content-item">
+											<p class="rates__content-text">Выходные и праздничные дни:</p>
+											<p class="rates__content-desc">oт 130грн/час</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button class="rates__btn" href="#">Заказать прокат</button>
+			</div>
+		</section>
+		<section class="services" id="services">
+			<div class="container">
+				<h2 class="services__title title">Услуги</h2>
+				<div class="services__sup">
+					<div class="services__sup-content">
+						<h4 class="services__sup-title sup-title">Sup-борды класса:</h4>
+						<div class="services__sup-info">
+							<p class="services__sup-text">Стандарт</p>
+							<p class="services__sup-text">Комфорт</p>
+							<p class="services__sup-text">Премиум</p>
+							<p class="services__sup-text">Мульти-борды до 8-ми человек</p>
+						</div>
+					</div>
+					<div class="services__sup-img"></div>
+				</div>
+			</div>
+			<div class="services__coach">
+				<div class="services__coach-img"></div>
+				<div class="services__coach-img"></div>
+			</div>
+			<div class="container">
+				<div class="services__coach-content">
+					<div class="services__coach-title sup-title">Занятие с инструктором</div>
+					<div class="services__coach-info">
+						<div class="services__coach-text">Индивидуальное</div>
+						<div class="services__coach-text">Парное</div>
+						<div class="services__coach-text">Групповое</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="services__extra">
+					<div class="services__extra-img"></div>
+					<div class="services__extra-content">
+						<h4 class="services__extra-title sup-title">Дополнительно</h4>
+						<div class="services__extra-info">
+							<p class="services__extra-text">Фитнес-тренер</p>
+							<p class="services__extra-text">Инструкторам по йоге</p>
+							<p class="services__extra-text">Соревнования</p>
+							<p class="services__extra-text">Фестиваль</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="apply">
+			<div class="container">
+				<div class="apply__content">
+					<h2 class="apply__title title">Заказать прокат</h2>
+					<form class="apply__form" action="">
+						<input class="form__input" type="text" placeholder="Ваше имя">
+						<input class="form__input" type="tel" placeholder="Ваше телефон">
+						<label class="form__number form__label">Кол-во человек
+							<input class="form__number-input" type="number">
+						</label>
+						<label class="form__date form__label">Дата
+							<input class="form__date-input" type="date">
+						</label>
+						<label class="form__time form__label">Время
+							<input class="form__time-input" type="time">
+						</label>
+						<button class="form__btn" type="submit">Заказать прокат</button>
+					</form>
+				</div>
+			</div>
+		</section>
+		<section class="gallery" id="gallery">
+			<div class="container">
+				<h2 class="gallery__title title">Наши счастливые клиенты</h2>
+				<div class="gallery__content">
+					<a class="gallery__img" href="#" style="background-image: url(images/gallery1.jpg);"></a>
+					<a class="gallery__img" href="#" style="background-image: url(images/gallery2.jpg);"></a>
+					<a class="gallery__img" href="#" style="background-image: url(images/gallery3.jpg);"></a>
+					<a class="gallery__img" href="#" style="background-image: url(images/gallery4.jpg);"></a>
+					<a class="gallery__img" href="#" style="background-image: url(images/gallery5.jpg);"></a>
+				</div>
+				<button class="gallery__btn" href="#">Больше фото в Instagram</button>
+			</div>
+		</section>
+		<section class="reviews">
+			<div class="container">
+				<h2 class="reviews__title title">Отзывы о нас</h2>
+				<div class="reviews__slider">
+					<div class="reviews__slider-item">
+						<h4 class="reviews__slider-title sup-title">Валерия</h4>
+						<p class="reviews__slider-text">
+							Арендавали sup boards. Очень отзывчивый персонал, все показали и
+							рассказали. Отличные цены, экипировка в хорошем состоянии. Администратор всегда доступен в Телеграм. 10 из
+							10.
+						</p>
+					</div>
+					<div class="reviews__slider-item">
+						<h4 class="reviews__slider-title sup-title">Артем</h4>
+						<p class="reviews__slider-text">
+							Приятные цены проката и отличный выбор сапов. Получили огромное
+							удовольствие на корпоративе. Обязательно выкроим еще выходной, чтобы еще раз пережить эти эмоции!
+							Это огонь)
+						</p>
+					</div>
+					<div class="reviews__slider-item">
+						<h4 class="reviews__slider-title sup-title">Мира</h4>
+						<p class="reviews__slider-text">
+							Очень насладилась йогой на sup. Не могла и подумать, что это может так
+							великолепно. Тренер — супер профи. Цены лучшие в городе. Киев безумно красив с этого ракурса)
+						</p>
+					</div>
+					<div class="reviews__slider-item">
+						<h4 class="reviews__slider-title sup-title">Ангелина</h4>
+						<p class="reviews__slider-text">
+							Арендавали sup boards . Очень отзывчивый персонал, все показали и
+							рассказали. Отличные цены, экипировка в хорошем состоянии. Администратор всегда доступен в Телеграм 10
+							из 10.
+						</p>
+					</div>
+					<div class="reviews__slider-item">
+						<h4 class="reviews__slider-title sup-title">Святослав</h4>
+						<p class="reviews__slider-text">
+							Приятные цены проката и отличный выбов сапов. Получили огромное
+							удовольствие на мини-корпоративе. Обязательно выкроим еще выходной, чтобы еще раз пережить эти эмоции!
+							Это огонь)
+						</p>
+					</div>
+					<div class="reviews__slider-item">
+						<h4 class="reviews__slider-title sup-title">Светлана</h4>
+						<p class="reviews__slider-text">
+							Очень насладилась йогой на sup. Не могла и подумать, что это может так
+							великолепно. Тренер — супер профи. Цены лучшие в городе. Киев безумно красив с этого ракурса)
+						</p>
+					</div>
+					<div class="reviews__slider-item">
+						<h4 class="reviews__slider-title sup-title">Богдан</h4>
+						<p class="reviews__slider-text">
+							Арендавали sup boards . Очень отзывчивый персонал, все показали и
+							рассказали. Отличные цены, экипировка в хорошем состоянии. Администратор всегда доступен в Телеграм 10
+							из 10.
+						</p>
+					</div>
+					<div class="reviews__slider-item">
+						<h4 class="reviews__slider-title sup-title">Николай</h4>
+						<p class="reviews__slider-text">
+							Приятные цены проката и отличный выбов сапов. Получили огромное
+							удовольствие на мини-корпоративе. Обязательно выкроим еще выходной, чтобы еще раз пережить эти эмоции!
+							Это огонь)
+						</p>
+					</div>
+					<div class="reviews__slider-item">
+						<h4 class="reviews__slider-title sup-title">Валерия</h4>
+						<p class="reviews__slider-text">
+							Очень насладилась йогой на sup. Не могла и подумать, что это может так
+							великолепно. Тренер — супер профи. Цены лучшие в городе. Киев безумно красив с этого ракурса)
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="contacts" id="contacts">
+			<div class="container">
+				<div class="contacts__title title">Контакты</div>
+				<div class="contacts__content">
+					<div class="contacts__content-item">
+						<img class="contacts__content-img" src="images/phone.svg" alt="">
+						<a class="contacts__content-tel" href="tel:+380696546552">+38 069 654 65 52</a>
+					</div>
+					<div class="contacts__content-item">
+						<img class="contacts__content-img" src="images/phone.svg" alt="">
+						<a class="contacts__content-tel" href="tel:+380448545885">+38 044 854 58 85</a>
+					</div>
+					<div class="contacts__content-item">
+						<img class="contacts__content-img" src="images/geo.svg" alt="">
+						<p class="contacts__content-text">причал станции метро Днепр</p>
+					</div>
+					<div class="contacts__content-item">
+						<img class="contacts__content-img" src="images/geo.svg" alt="">
+						<p class="contacts__content-text">Днепровская набережная, 54</p>
+					</div>
+					<div class="contacts__content-item">
+						<img class="contacts__content-img" src="images/geo.svg" alt="">
+						<p class="contacts__content-text">Днепровская набережная, 123</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="question">
+			<div class="container">
+				<h2 class="question__title title">Часто задаваемые вопросы</h2>
+				<div class="question__items">
+					<div class="question__item">
+						<h4 class="question__item-title ">Какую одежду одевать?</h4>
+						<div class="question__item-text">Одежда должна быть удобной, не сковывать движения и не становиться слишком
+							тежелой при намокании. Самое необходимое: головной убор, тапочки или гидроботы, шнурок для очков,
+							гермомешок (если есть), чехол для телефона, полотенце, сменный комплект одежды.</div>
+					</div>
+					<div class="question__item">
+						<h4 class="question__item-title">Сколько времни можно нахадиться на борде?</h4>
+						<div class="question__item-text">Время катания неограниченно, но стоит учитывать собственные силы, погодние
+							условия и график работы проката.</div>
+					</div>
+					<div class="question__item">
+						<h4 class="question__item-title">Есть ли ограничения по весу и возрасту?</h4>
+						<div class="question__item-text">Таких ограничений нет, у нас есть борды на любой вес. Дети до 16 лет
+							допускаются к катанию только в присутствии одного из родителей при условии его участвия в катании.
+						</div>
+					</div>
+					<div class="question__item">
+						<h4 class="question__item-title">Какое минимальное время проката?</h4>
+						<div class="question__item-text">Минимальное время прокта 1 час.</div>
+					</div>
+					<div class="question__item">
+						<h4 class="question__item-title">Что будет, если sup повредится?</h4>
+						<div class="question__item-text">Повреждение исследуется инструктором и оценивается его характер. Если в
+							поврежденни виноват заказчик, он оплачивает стоимость ремонта.</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__inner">
+				<a class="footer__logo" href="#"><img src="images/footer-logo.svg" alt=""></a>
+				<a class="footer__phone" href="tel:+380696546552">+38 069 654 65 52</a>
+			</div>
+		</div>
+	</footer>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
